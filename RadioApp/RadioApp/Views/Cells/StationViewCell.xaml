@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xamForms:ReactiveViewCell 
+             x:TypeArguments="models:StationModel" 
+             xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:forms="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:xamForms="clr-namespace:ReactiveUI.XamForms;assembly=ReactiveUI.XamForms"
+             xmlns:models="clr-namespace:RadioApp.Models;assembly=RadioApp"
+             xmlns:radioApp="clr-namespace:RadioApp;assembly=RadioApp"
+             x:Class="RadioApp.Views.Cells.StationViewCell">
+  <ViewCell.View>
+      <StackLayout Orientation="Horizontal" Margin="5">
+            <forms:CachedImage x:Name="LogoImage"
+                               LoadingPlaceholder="{x:Static radioApp:Constants.StationPlaceholder}"
+                               HeightRequest="70"
+                               WidthRequest="70"
+                               DownsampleToViewSize="True"/>
+          <StackLayout VerticalOptions="EndAndExpand"
+                       HorizontalOptions="StartAndExpand">
+                <Label x:Name="NameLabel" />
+                <Label x:Name="GenreLabel" />
+                <Label x:Name="BitRateLabel" />
+          </StackLayout>
+      </StackLayout>
+  </ViewCell.View>
+</xamForms:ReactiveViewCell>

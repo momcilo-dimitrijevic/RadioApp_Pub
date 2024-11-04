@@ -26,7 +26,7 @@
     <PackageReference Include="ReactiveUI.Events.XamForms" Version="9.3.5" />
     <PackageReference Include="ReactiveUI.Fody" Version="9.3.5" />
     <PackageReference Include="ReactiveUI.XamForms" Version="9.3.5" />
-    <PackageReference Include="Refit" Version="4.6.48" />
+    <PackageReference Include="Refit" Version="8.0.0" />
     <PackageReference Include="Xamarin.FFImageLoading" Version="2.4.4.859" />
     <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.4.4.859" />
     <PackageReference Include="Xamarin.FFImageLoading.Transformations" Version="2.4.4.859" />
